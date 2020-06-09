@@ -1,0 +1,22 @@
+Automaton: self-operating machine, or a machine or control mechanism designed to automatically follow a predetermined sequence of operations, or respond to predetermined instructions
+Grammar: the description of a language as a state machine or in prose
+Halting Problem: Whether or not a program (M) will halt given an input (IM). Turing proved that it is impossible to develop an algorithm that can effectively determine if a program will halt given a certain input
+Turing Machine: A tape of boxes with 0, 1, or empty spaces, the program will go to each of boxes and will read the instructions from these boxes and take the subsequent actions (transition to another box/state). The final state is when the machine halts
+Decidability: Whether or not you are able to get a consistent yes/no answer based on input
+
+Decidable Language: A language for which membership can be decided by an algorithm that halts on all inputs in a finite number of steps (recognized by a Turing machine). There exists an algorithm that will make the program reject if input is not valid language.
+
+Undecidable Language: Membership cannot be decided by an algorithm, can’t be recognized by a Turing machine that halts for all inputs. If it doesn’t belong, the machine will either reject 
+
+Recognizable (Recursively Enumerable): there is a Turing Machine which will halt and accept only the strings in that language and for strings not in the language, the TM either rejects, or does not halt at all.
+
+Deterministic: For the same input, will always result in same output
+
+Nondeterministic: For the same input can exhibit different behaviors on different runs
+
+Parser: Code responsible for handling user input
+
+Expressiveness: breadth of ideas that can be represented and communicated in that language.
+
+
+
