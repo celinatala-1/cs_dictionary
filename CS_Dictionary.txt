@@ -15,8 +15,16 @@ Deterministic: For the same input, will always result in same output
 Nondeterministic: For the same input can exhibit different behaviors on different runs
 
 Parser: Code responsible for handling user input
+Container: Consists of a runtime environment. It has the package which includes the application, dependencies, libraries, and binaries. This way a program can be tested/run on another environment/computer
 
 Expressiveness: breadth of ideas that can be represented and communicated in that language.
-
-
+Terminals: Smallest block in grammar (single words)
+Constraint list: is a list of expressions (with boolean type) which are assumed to hold
+Non-terminal: Things that use terminals like sentences and paragraphs
+Optimization: Finding minimum/maximum way to do something
+Greedy Method: Use a predetermined process/path
+Dynamic Programming: Find all possible solutions and then pick the best method (usually with recursion formulas/iteration)
+Principle of Optimality: using seek/solve solutions
+Memorization: Top-down approach (e.g. starting from the bigger numbers to the lower one)
+Tabulation: Bottom-up approach (start from the smaller numbers)
 
