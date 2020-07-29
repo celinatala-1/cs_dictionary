@@ -27,4 +27,11 @@ Dynamic Programming: Find all possible solutions and then pick the best method (
 Principle of Optimality: using seek/solve solutions
 Memorization: Top-down approach (e.g. starting from the bigger numbers to the lower one)
 Tabulation: Bottom-up approach (start from the smaller numbers)
+Binary Tree: Each node has up to two children
+Binary Search Tree: The node of left is smaller than or equal to parent
+Complete Binary Tree: Every level is filled except for children
+Full Binary Tree: Every Node has either two or zero children
+Subsequence: Doesn't have to be continuous 
+Tortoise and Hare: Used to check if a linked list has a cycle
+
 

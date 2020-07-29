@@ -1,4 +1,5 @@
-#A basic dictionary program that reads from a document. User can search for a word, and the definition will appear
+#A basic dictionary program that reads from a document. 
+# User can search for a word, and the definition will appear
 
 from file_parse import *
 import json
@@ -36,7 +37,6 @@ def get_definition():
     if word in dictionary:
         get_word(word)
     #for getting close matches of a word
-
     elif len(close_match) > 0:
         c = Canvas(new, height = 200, width = 400)
         Label(c, text = "There was a spelling mistake, choose correct word").pack(anchor = CENTER)
@@ -46,6 +46,8 @@ def get_definition():
         Button(b, text = "None", command = none).pack(side = LEFT)
         c.pack()
         b.pack()
+    else:
+        none()
 
 root = tk.Tk()
 Label(root, text = "Enter Word").pack(side = LEFT)
